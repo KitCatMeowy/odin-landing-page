@@ -29,6 +29,7 @@ header {
 
 .header-left {
     font-size: 36px;
+    font-weight: bold;
     color: #F9FAF8;
 }
 
@@ -37,6 +38,8 @@ header {
     font-size: 28px;
     color: #E5E7EB;
     gap: 28px;
+    justify-content: center;
+    align-items: center;
 }
 
 .hero {
@@ -91,7 +94,7 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-bottom: 36px;
+    margin-bottom: 56px;
 }
 
 .info-title {
@@ -122,6 +125,7 @@ li {
 li img {
     width: 350px;
     height: 350px;
+    border-radius: 24px;
 }
 
 li p {
@@ -132,9 +136,82 @@ li p {
     padding: 12px;
 }
 
+.quote-section {
+    display: flex;
+    width: 100%;
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+    background-color: #E5E7EB;
+}
+
+.quote {
+    display: grid;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    margin-bottom: 36px;
+    color: #1F2937;
+}
+
+.quote-author {
+    font-size: 28px;
+    font-weight: bold;
+    justify-self: right;
+}
+
+.bottom {
+    display: flex;
+    width: 100%;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-to-action {
+    display: flex;
+    background-color: #3882F6;
+    justify-content: space-between;
+    align-items: center;
+    width: 700px;
+    height: 150px;
+    padding: 0px 128px;
+    border-radius: 12px;
+}
+
+.cta-text {
+    display: flex;
+    flex-direction: column;
+    color: #E5E7EB;
+}
+
+.cta-title {
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 6px;
+}
+
+.sign-up-button {
+    width: auto;
+    height: 36px;
+    width: 96px;
+    border: #E5E7EB solid 2px;
+    color: #E5E7EB;
+    background-color: #3882F6;
+    border-radius: 6px;
+    padding: 0px 12px;
+    font-weight: bold;
+}
+
 footer {
+  background-color: #1F2937;
+  color: #F9FAF8;
   font-size: 24px;
   margin-top: 250px;
   display: flex;
+  align-items: center;
   justify-content: center;
+  height: 96px;
 }
