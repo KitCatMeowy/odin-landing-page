@@ -175,8 +175,8 @@ li p {
     background-color: #3882F6;
     justify-content: space-between;
     align-items: center;
-    width: 700px;
-    height: 150px;
+    width: 770px;
+    height: 165px;
     padding: 0px 128px;
     border-radius: 12px;
 }
@@ -189,27 +189,38 @@ li p {
 
 .cta-title {
     font-weight: bold;
-    font-size: 24px;
+    font-size: 30px;
     margin-bottom: 6px;
 }
 
+.cta-subtext {
+    font-size: 18px;
+}
+
 .sign-up-button {
-    width: auto;
-    height: 36px;
-    width: 96px;
+    display: flex;
+    height: 45px;
+    width: 120px;
     border: #E5E7EB solid 2px;
     color: #E5E7EB;
     background-color: #3882F6;
     border-radius: 6px;
     padding: 0px 12px;
     font-weight: bold;
+    font-size: 14px;
+    align-items: center;
+    justify-content: center;
+}
+
+.sign-up-button:active {
+    transform: scale(0.98);
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
 }
 
 footer {
   background-color: #1F2937;
   color: #F9FAF8;
   font-size: 24px;
-  margin-top: 250px;
   display: flex;
   align-items: center;
   justify-content: center;
